@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: dimgrey;
+}
+
+    header h1{
+        display: inline-block;
+        background-color: limegreen;
+        color: rgb(1, 43, 4);
+        font-size: xx-large;
+        font-style: italic;
+        font-family:Arial, Helvetica, sans-serif;
+        align-self: center;
+    }
+
+    header nav{
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+        header nav ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width:75%;
+            list-style: none;
+        }
+
+            header nav ul li {
+                text-decoration: none;
+                color: limegreen;
+            }
