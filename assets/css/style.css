@@ -17,7 +17,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: dimgrey;
+    background-color: rgb(25, 29, 25);
     height: 10vh;
 }
 
@@ -68,8 +68,8 @@ header {
         justify-content: space-around;
         width: 40vw;
         height: 80vh;
-        background-color: black;
-        color: antiquewhite;
+        background-color:rgb(52, 59, 52);
+        color: lime;
 
     }
 
@@ -104,6 +104,14 @@ header {
             
         }
 
+        section div div:hover {
+           transition: all .3s ease-in;
+           background-color: limegreen;
+        }
+        
+
+      
+
             section div div p {
                 width: fit-content;
                 text-align: left;
@@ -115,6 +123,14 @@ header {
 
             }
 
+            .grow {
+                transition: all .2s ease-in-out;
+            }
+    
+            .grow:hover {
+                transform: scale(1,1);
+            }
+
 
 
 
@@ -122,5 +138,5 @@ header {
 
 footer {
     height: 10vh;
-    background-color: brown;
+    background-color: rgb(25, 29, 25);
 }
