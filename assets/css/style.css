@@ -1,7 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    min-height: 100vh;
+
+}
+
+
+
+
 header {
     display: flex;
     justify-content: space-between;
     background-color: dimgrey;
+    height: 10vh;
 }
 
     header h1{
@@ -33,3 +50,77 @@ header {
                 text-decoration: none;
                 color: limegreen;
             }
+
+
+ section {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: blue;
+    height: 80vh;
+    width: 100vw;
+            
+}
+            
+
+    section aside {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40vw;
+        height: 80vh;
+        background-color: black;
+        color: antiquewhite;
+
+    }
+
+    section div {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(70, 68, 68);
+        width: 60vw;
+        height: 80vh;
+        justify-content: space-around;
+        overflow: auto;
+
+    }
+
+    section div #topside {
+        width: 100%;
+    }
+        section div div {
+            justify-content: flex-start;
+            align-items: center;
+            height:25%;
+            width: 40%;
+            border-width: 2px;
+            border-style:solid;
+            border-radius: 25px;
+            border-color:limegreen;
+            background-color: dimgrey;
+            margin: 25px;
+
+ 
+            
+        }
+
+            section div div p {
+                width: fit-content;
+                text-align: left;
+                font-size: x-large;
+                font-family:monospace ;
+                background-color:limegreen ;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+
+            }
+
+
+
+
+
+
+footer {
+    height: 10vh;
+    background-color: brown;
+}
